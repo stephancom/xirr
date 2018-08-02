@@ -8,7 +8,7 @@ This is a gem to calculate XIRR on Bisection Method or Newton Method.
 
 Add this line to your application's Gemfile:
 
-    gem 'xirr'
+    gem 'xirr', git: 'https://github.com/ikayzo/xirr.git', branch: 'master'
 
 And then execute:
 
@@ -22,7 +22,7 @@ Or install it yourself as:
 
 
     include Xirr
-    
+
     cf = Cashflow.new
     cf << Transaction.new(-1000,  date: '2014-01-01'.to_date)
     cf << Transaction.new(-2000,  date: '2014-03-01'.to_date)
@@ -42,7 +42,7 @@ Or install it yourself as:
 ## Configuration
 
     # intializer/xirr.rb
-    
+
     Xirr.configure do |config|
       config.eps = '1.0e-12'
       config.days_in_year = 365.25
