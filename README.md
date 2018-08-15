@@ -4,6 +4,8 @@
 
 This is a gem to calculate XIRR on Bisection Method or Newton Method.
 
+This fork removes the C dependency and does everything in ruby. Good for deploying to Heroku where gcc is no longer available at run-time by default.
+
 ## Installation
 
 Add this line to your application's Gemfile:

@@ -1,5 +1,8 @@
+## Version 0.6.1
+* Removes native C dependency and relies solely on ruby
+
 ## Version 0.5.4
-* Fallsback If Newton Methods returns NaN 
+* Fallsback If Newton Methods returns NaN
 
 ## Version 0.5.3
 * Better tests
