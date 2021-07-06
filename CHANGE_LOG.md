@@ -1,4 +1,4 @@
-## Version 0.6.1+no.c
+## Version 0.6.1.1
 Updates to official 0.6.1 version while preserving removal of native C dependency
 
 ## Version 0.6.1
