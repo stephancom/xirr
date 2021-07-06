@@ -1,3 +1,6 @@
+## Version 0.6.1+no.c
+Updates to official 0.6.1 version while preserving removal of native C dependency
+
 ## Version 0.6.1
 * Removes native C dependency and relies solely on ruby
 

@@ -1,5 +1,5 @@
+# frozen_string_literal: true
 module Xirr
-
   #  Base module for XIRR calculation Methods
   module Base
     extend ActiveSupport::Concern
