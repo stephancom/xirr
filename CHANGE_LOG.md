@@ -1,3 +1,6 @@
+## Version 0.6.1.2
+ActiveSupport dependency bump for Rails 6 compatibility
+
 ## Version 0.6.1.1
 Updates to official 0.6.1 version while preserving removal of native C dependency
 
